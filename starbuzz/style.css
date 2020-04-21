@@ -5,12 +5,125 @@ body {
 }
 
 h2, h3 {
-    color: green;
     font-family: serif;
 
 }
 
 .produse{
-  color: red;
-  
+  color: chocolate;
+  font-style: italic;
+}
+
+#ceai{
+  color: rgb(208,240,192);
+  font-style: italic;
+  clear: both;
+}
+
+.div_ceai p{
+  color:green;
+  font-size: 15px;
+  font-weight: bold;
+
+
+}
+
+.cafea p {
+    font-weight: bold;
+    font-size: 15px;
+    color: 	#38220f;
+
+}
+
+.guarantee_paragraph {
+    border-color: white;
+    border-width: 2px;
+    border-style: dashed;
+    background-image: url(images/background.gif);
+    background-repeat: no-repeat;
+    background-position: left center;
+    line-height: 1.6em;
+    padding: 3px;
+    padding-left: 80px;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    font-weight: bold;
+    font-family:sans-serif;
+    color: green;
+    box-sizing: border-box;
+}
+
+.nav_menu{
+    font-size: 17px;
+    font-style: italic;
+    font-weight: bold;
+    border-left: white;
+    border-left-style: groove;
+    border-left-width: thick;
+    margin-right: 2%;
+    padding-left: 1%;
+    box-sizing: border-box;
+
+
+}
+
+
+
+a.nav_menu {
+  color: white;
+  text-decoration: none;
+}
+
+a.nav_menu:visited{
+  color: white;
+}
+
+a.nav_menu:hover{
+    text-decoration:underline;
+    background-color: chocolate;
+}
+
+.piano {
+  max-height: 400px;
+  max-width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 5%;
+}
+
+.songs li{
+  font-style: italic;
+
+}
+
+.songs span{
+  font-weight: bold;
+  font-style: normal;
+
+}
+
+#divine_exp{
+/*  float:right;*/
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#ticket{
+  position: fixed;
+  top: 100px;
+  right:100px;
+  height: 200px;
+  width:290;
+}
+
+#ticket img {
+
+  height: 200px;
+  width: 200px;
 }
