@@ -127,31 +127,145 @@ a.nav_menu:hover{
 }
 
 /* Curs 4 Exercitiul 1 */
+
 #header {
   background-color:#6a3005;
-   position: relative;
+  position:relative;
+  border-style: solid;
+  border-color:	#c4923e;
+  border-width: 5px;
+  height: 120px;
+
+}
+#logo{
+position:absolute;
+left: 0px;
+}
+#slogan{
+  position:absolute;
+  right: 0px;
 }
 
+#exercitiu1{
+  height: 50px;
+}
+.nav_bar{
+  height: 40px;
+  text-align: center;
+  padding-top: 10px;
+}
 
 .sectiuni{
   border-style: solid;
   border-color:	#c4923e;
-  border-width: 10px;
+  border-width: 5px;
   background-color: #ECD3BF;
   padding-left: 10px;
   box-sizing: border-box;
   text-align: center;
+  border-collapse: collapse;
+}
+
+#sectiunea_1{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  height: 700px;
+}
+
+
+#sectiunea_2{
+  float:left;
+  width: 15%;
+  display: inline-block;
+  height: 700px;
+
+}
+
+#sectiunea_3{
+  float: right;
+  width: 15%;
+  display: inline-block;
+  height: 700px;
 }
 
 .bag{
   margin-left: auto;
   margin-right: auto;
+
 }
 
-#sectiunea_2{
-  float:left;
+#footer{
+  clear: both;
+  background-color:#6a3005;
+  color: white;
+}
+/*Cusrs 4 - Exercitiul 2  - Tabele */
+
+#employees {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+#employees td, #employees th {
+/*  border: 1px solid #ddd;*/
+  padding: 8px;
 }
 
-sectiunea_3{
-  float: right;
+#employees tr:nth-child(even){background-color: #f2f2f2;}
+#employees tr:nth-child(odd){background-color: white;}
+
+#employees th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: red;
+  color: white;
+}
+
+#produse{
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+#produse td, #produse th {
+  padding: 8px;
+}
+
+#produse tr:nth-child(even){background-color: #f2f2f2;}
+#produse tr:nth-child(odd){background-color: white;}
+
+#produse th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: green;
+  color:white;
+}
+
+#users{
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+#users td, #users th {
+  padding: 8px;
+}
+
+#users tr:nth-child(even){background-color: #f2f2f2;}
+#users tr:nth-child(odd){background-color: white;}
+
+#users th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: blue;
+  color:white;
+}
+
+/*Formular de comanda */
+
+input{
+  display:block;
 }
