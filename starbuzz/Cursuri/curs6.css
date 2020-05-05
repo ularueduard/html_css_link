@@ -1,0 +1,70 @@
+h1 {
+  color: red
+}
+
+svg {
+  width: 100%;
+  height: 100%;
+
+}
+circle {
+  stroke: black;
+  stroke=width: 2px;
+  stroke-opacity: 1;
+}
+
+#pulse {
+  fill: white;
+  fill-opacity: 0;
+  transform-origin: 50% 50%;
+  animation-duration: 2s;
+  animation-name: pulse;
+  animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+  from{
+    stroke-width: 3px;
+    stroke-opacity: 1;
+    transform: scale(0.5);
+  }
+  to {
+    stroke-width: 0px;
+    stroke-opacity:0;
+    transform: scale(2);
+  }
+}
+
+/* Flex Box */
+
+html, body {
+background-color: #ffeead;
+}
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+div {
+  border-width: medium;
+  border-color: orange;
+  border-style: solid;
+  font-size: 1.5em;
+  font-family: sans-serif;
+  width: 300px;
+}
+
+div:nth-child(1) {
+  background-color: tan;
+}
+
+div:nth-child(2) {
+  background-color: yellow;
+}
+
+div:nth-child(3){
+  background-color: lightblue;
+}
